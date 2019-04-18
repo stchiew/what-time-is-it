@@ -12,7 +12,7 @@ The development of this project is to showcase the use of Gitflow and Azure DevO
 
 | Release | Date           | Comments        |
 | ------- | -------------- | --------------- |
-| 1.0.0   | April 06, 2019 | Initial release |
+| 1.0.0   | April 18, 2019 | Initial release |
 
 Release 1.0.0 - Updates included in this release:
 
