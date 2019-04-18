@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "what-time-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/whatTime/WhatTimeWebPart.js",
+          "manifest": "./src/webparts/whatTime/WhatTimeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WhatTimeWebPartStrings": "lib/webparts/whatTime/loc/{locale}.js"
+  }
+}
