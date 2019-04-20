@@ -32,14 +32,14 @@ Connect-PnPOnline $catalogSite -Credentials $plainCred
 # Adding and publishing the App package
 If ($skipFeatureDeployment -ne $true) {
     Write-Host "skipFeatureDeployment = false"
-    Add-PnPApp -Path $packagePath -Publish -Overwrite
+    Add-PnPApp -Path $packagePath -Publish -Overwrite -Scope Site
     Write-Host *************************************************** -ForegroundColor Yellow
     Write-Host * The SPFx solution has been succesfully uploaded and published to the AppCatalog * -ForegroundColor Yellow
     Write-Host *************************************************** -ForegroundColor Yellow
 }
 Else {
     Write-Host "skipFeatureDeployment = true"
-    Add-PnPApp -Path $packagePath -SkipFeatureDeployment -Publish -Overwrite
+    Add-PnPApp -Path $packagePath -SkipFeatureDeployment -Publish -Overwrite -Scope Site
     Write-Host *************************************************** -ForegroundColor Yellow
     Write-Host * The SPFx solution has been succesfully uploaded and published to the AppCatalog * -ForegroundColor Yellow
     Write-Host *************************************************** -ForegroundColor Yellow

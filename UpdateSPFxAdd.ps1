@@ -20,4 +20,4 @@ Write-Host **************************************** -ForegroundColor Yellow
 $sp = $psw | ConvertTo-SecureString -AsPlainText -Force
 $plainCred = New-Object system.management.automation.pscredential -ArgumentList $username, $sp
 Connect-PnPOnline $site -Credentials $plainCred
-Update-PnPApp -Identity $appId
+Update-PnPApp -Identity $appId -Scope Site
