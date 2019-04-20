@@ -3,7 +3,7 @@
   "solution": {
     "name": "what-time-is-it-client-side-solution",
     "id": "f46d3856-466a-4a8e-8476-860b835a519e",
-    "version": "1.0.0.0",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "isDomainIsolated": false
   },
